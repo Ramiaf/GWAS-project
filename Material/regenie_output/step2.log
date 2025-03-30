@@ -1,0 +1,153 @@
+Start time: Sun Jul 21 18:07:07 2024
+
+              |=============================|
+              |      REGENIE v3.4.1.gz      |
+              |=============================|
+
+Copyright (c) 2020-2024 Joelle Mbatchou, Andrey Ziyatdinov and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : regenie_output/step2.log
+
+Options in effect:
+  --step 2 \
+  --bed exported_data/PLINK_genotypes/geno \
+  --phenoFile exported_data/phenotypes/filtered_pheno.txt \
+  --bsize 200 \
+  --pred regenie_output/step1_pred.list \
+  --out regenie_output/step2
+
+Association testing mode with fast multithreading using OpenMP
+ * bim              : [exported_data/PLINK_genotypes/geno.bim] n_snps = 9772
+ * fam              : [exported_data/PLINK_genotypes/geno.fam] n_samples = 323
+ * bed              : [exported_data/PLINK_genotypes/geno.bed]
+ * phenotypes       : [exported_data/phenotypes/filtered_pheno.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+   -number of phenotyped individuals with no missing data = 323
+ * number of individuals used in analysis = 323
+ * number of observations for each trait:
+   - 'caffeine_consumption': 323 observations
+ * LOCO predictions : [regenie_output/step1_pred.list]
+   -file [/mnt/c/Rami/VScode/hail_tool/regenie_output/step1_1.loco] for phenotype 'caffeine_consumption'
+   -residualizing and scaling phenotypes...done (0ms) 
+ * # threads        : [7]
+ * block size       : [200]
+ * # blocks         : [60]
+ * approximate memory usage : 4MB
+ * using minimum MAC of 5 (variants with lower MAC are ignored)
+
+Chromosome 1 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [1/60] : done (35ms) 
+ block [2/60] : done (31ms) 
+ block [3/60] : done (62ms) 
+ block [4/60] : done (26ms) 
+Chromosome 2 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [5/60] : done (28ms) 
+ block [6/60] : done (27ms) 
+ block [7/60] : done (31ms) 
+ block [8/60] : done (23ms) 
+Chromosome 3 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [9/60] : done (29ms) 
+ block [10/60] : done (29ms) 
+ block [11/60] : done (27ms) 
+ block [12/60] : done (9ms) 
+Chromosome 4 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [13/60] : done (27ms) 
+ block [14/60] : done (27ms) 
+ block [15/60] : done (27ms) 
+ block [16/60] : done (3ms) 
+Chromosome 5 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [17/60] : done (27ms) 
+ block [18/60] : done (27ms) 
+ block [19/60] : done (27ms) 
+ block [20/60] : done (0ms) 
+Chromosome 6 [4 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [21/60] : done (29ms) 
+ block [22/60] : done (28ms) 
+ block [23/60] : done (27ms) 
+ block [24/60] : done (4ms) 
+Chromosome 7 [3 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [25/60] : done (28ms) 
+ block [26/60] : done (27ms) 
+ block [27/60] : done (17ms) 
+Chromosome 8 [3 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [28/60] : done (29ms) 
+ block [29/60] : done (27ms) 
+ block [30/60] : done (12ms) 
+Chromosome 9 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (1ms) 
+ block [31/60] : done (31ms) 
+ block [32/60] : done (28ms) 
+Chromosome 10 [3 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [33/60] : done (30ms) 
+ block [34/60] : done (28ms) 
+ block [35/60] : done (14ms) 
+Chromosome 11 [3 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [36/60] : done (28ms) 
+ block [37/60] : done (27ms) 
+ block [38/60] : done (12ms) 
+Chromosome 12 [3 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [39/60] : done (27ms) 
+ block [40/60] : done (28ms) 
+ block [41/60] : done (15ms) 
+Chromosome 13 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [42/60] : done (28ms) 
+ block [43/60] : done (19ms) 
+Chromosome 14 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [44/60] : done (29ms) 
+ block [45/60] : done (15ms) 
+Chromosome 15 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [46/60] : done (27ms) 
+ block [47/60] : done (14ms) 
+Chromosome 16 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (3ms) 
+ block [48/60] : done (27ms) 
+ block [49/60] : done (21ms) 
+Chromosome 17 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [50/60] : done (27ms) 
+ block [51/60] : done (12ms) 
+Chromosome 18 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [52/60] : done (27ms) 
+ block [53/60] : done (14ms) 
+Chromosome 19 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [54/60] : done (31ms) 
+ block [55/60] : done (9ms) 
+Chromosome 20 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [56/60] : done (30ms) 
+ block [57/60] : done (9ms) 
+Chromosome 21 [1 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [58/60] : done (19ms) 
+Chromosome 23 [2 blocks in total]
+   -reading loco predictions for the chromosome...done (2ms) 
+ block [59/60] : done (39ms) 
+ block [60/60] : done (16ms) 
+
+Association results stored separately for each trait in files : 
+* [regenie_output/step2_caffeine_consumption.regenie]
+
+Number of ignored tests due to low MAC : 6
+
+Elapsed time : 1.7298s
+End time: Sun Jul 21 18:07:09 2024
+

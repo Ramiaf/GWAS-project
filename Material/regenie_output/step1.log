@@ -1,0 +1,325 @@
+Start time: Sun Jul 21 18:07:03 2024
+
+              |=============================|
+              |      REGENIE v3.4.1.gz      |
+              |=============================|
+
+Copyright (c) 2020-2024 Joelle Mbatchou, Andrey Ziyatdinov and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : regenie_output/step1.log
+
+Options in effect:
+  --step 1 \
+  --bed exported_data/PLINK_genotypes/geno \
+  --covarFile exported_data/phenotypes/filtered_cov.txt \
+  --catCovarList is_female \
+  --phenoFile exported_data/phenotypes/filtered_pheno.txt \
+  --bsize 200 \
+  --out regenie_output/step1
+
+Fitting null model
+ * bim              : [exported_data/PLINK_genotypes/geno.bim] n_snps = 9772
+ * fam              : [exported_data/PLINK_genotypes/geno.fam] n_samples = 323
+ * bed              : [exported_data/PLINK_genotypes/geno.bed]
+ * phenotypes       : [exported_data/phenotypes/filtered_pheno.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+   -number of phenotyped individuals with no missing data = 323
+ * covariates       : [exported_data/phenotypes/filtered_cov.txt] n_cov = 1
+   -number of individuals with covariate data = 323
+ * number of individuals used in analysis = 323
+ * number of observations for each trait:
+   - 'caffeine_consumption': 323 observations
+   -residualizing and scaling phenotypes...done (0ms) 
+ * # threads        : [7]
+ * block size       : [200]
+ * # blocks         : [60] for 9772 variants
+ * # CV folds       : [5]
+ * ridge data_l0    : [5 : 0.01 0.25 0.5 0.75 0.99 ]
+ * ridge data_l1    : [5 : 0.01 0.25 0.5 0.75 0.99 ]
+ * approximate memory usage : 4MB
+ * setting memory...done
+
+Chromosome 1
+ block [1] : 200 snps  (44ms) 
+   -residualizing and scaling genotypes...done (1ms) 
+   -calc working matrices...done (13ms) 
+   -calc level 0 ridge...done (52ms) 
+ block [2] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (5ms) 
+   -calc level 0 ridge...done (51ms) 
+ block [3] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (2ms) 
+   -calc working matrices...done (12ms) 
+   -calc level 0 ridge...done (45ms) 
+ block [4] : 197 snps  (30ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (77ms) 
+Chromosome 2
+ block [5] : 200 snps  (49ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (4ms) 
+   -calc level 0 ridge...done (52ms) 
+ block [6] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (11ms) 
+   -calc level 0 ridge...done (49ms) 
+ block [7] : 200 snps  (31ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (51ms) 
+ block [8] : 171 snps  (37ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (19ms) 
+Chromosome 3
+ block [9] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (37ms) 
+ block [10] : 200 snps  (29ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (29ms) 
+ block [11] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (28ms) 
+ block [12] : 63 snps  (15ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (3ms) 
+Chromosome 4
+ block [13] : 200 snps  (30ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (28ms) 
+ block [14] : 200 snps  (41ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (1ms) 
+   -calc level 0 ridge...done (56ms) 
+ block [15] : 200 snps  (38ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (12ms) 
+   -calc level 0 ridge...done (43ms) 
+ block [16] : 22 snps  (6ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (0ms) 
+Chromosome 5
+ block [17] : 200 snps  (35ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (6ms) 
+   -calc level 0 ridge...done (54ms) 
+ block [18] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (27ms) 
+ block [19] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (25ms) 
+ block [20] : 1 snps  (0ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (0ms) 
+Chromosome 6
+ block [21] : 200 snps  (53ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (4ms) 
+   -calc level 0 ridge...done (64ms) 
+ block [22] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (27ms) 
+ block [23] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (27ms) 
+ block [24] : 28 snps  (7ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (0ms) 
+Chromosome 7
+ block [25] : 200 snps  (31ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (24ms) 
+ block [26] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (26ms) 
+ block [27] : 115 snps  (22ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (9ms) 
+Chromosome 8
+ block [28] : 200 snps  (33ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (77ms) 
+ block [29] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (29ms) 
+ block [30] : 91 snps  (17ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (5ms) 
+Chromosome 9
+ block [31] : 200 snps  (33ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (28ms) 
+ block [32] : 194 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (26ms) 
+Chromosome 10
+ block [33] : 200 snps  (34ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (76ms) 
+ block [34] : 200 snps  (40ms) 
+   -residualizing and scaling genotypes...done (1ms) 
+   -calc working matrices...done (4ms) 
+   -calc level 0 ridge...done (41ms) 
+ block [35] : 105 snps  (16ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (8ms) 
+Chromosome 11
+ block [36] : 200 snps  (30ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (25ms) 
+ block [37] : 200 snps  (36ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (74ms) 
+ block [38] : 87 snps  (20ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (6ms) 
+Chromosome 12
+ block [39] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (59ms) 
+ block [40] : 200 snps  (36ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (25ms) 
+ block [41] : 109 snps  (20ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (8ms) 
+Chromosome 13
+ block [42] : 200 snps  (31ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (77ms) 
+ block [43] : 141 snps  (27ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (13ms) 
+Chromosome 14
+ block [44] : 200 snps  (33ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (29ms) 
+ block [45] : 113 snps  (21ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (10ms) 
+Chromosome 15
+ block [46] : 200 snps  (81ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (4ms) 
+   -calc level 0 ridge...done (51ms) 
+ block [47] : 102 snps  (16ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (7ms) 
+Chromosome 16
+ block [48] : 200 snps  (29ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (61ms) 
+ block [49] : 128 snps  (25ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (10ms) 
+Chromosome 17
+ block [50] : 200 snps  (33ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (29ms) 
+ block [51] : 85 snps  (17ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (5ms) 
+Chromosome 18
+ block [52] : 200 snps  (32ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (69ms) 
+ block [53] : 103 snps  (23ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (9ms) 
+Chromosome 19
+ block [54] : 200 snps  (31ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (38ms) 
+ block [55] : 52 snps  (9ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (2ms) 
+Chromosome 20
+ block [56] : 200 snps  (65ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (37ms) 
+ block [57] : 68 snps  (14ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (3ms) 
+Chromosome 21
+ block [58] : 141 snps  (25ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (48ms) 
+Chromosome 23
+ block [59] : 200 snps  (56ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (25ms) 
+ block [60] : 56 snps  (22ms) 
+   -residualizing and scaling genotypes...done (0ms) 
+   -calc working matrices...done (0ms) 
+   -calc level 0 ridge...done (2ms) 
+
+ Level 1 ridge...
+   -on phenotype 1 (caffeine_consumption)...done (93ms) 
+
+Output
+------
+phenotype 1 (caffeine_consumption) : 
+  0.01  : Rsq = 0.140347, MSE = 0.878909
+  0.25  : Rsq = 0.501307, MSE = 0.550001
+  0.5   : Rsq = 0.61967, MSE = 0.405711
+  0.75  : Rsq = 0.67537, MSE = 0.326296
+  0.99  : Rsq = 0.704385, MSE = 0.317005<- min value
+  * making predictions...writing LOCO predictions...done (16ms) 
+
+List of blup files written to: [regenie_output/step1_pred.list]
+
+Elapsed time : 4.47158s
+End time: Sun Jul 21 18:07:07 2024
+
