@@ -1,0 +1,8 @@
+GO terms are organized in a hierarchical manner as a directed a-cyclic graph.
+There are broad GO terms that encompass more specific GO terms;
+For example, 'bio process' is a GO term but 'tRNA metabolic process' is more specific
+--> propagate_counts=False means that it will not include the broader terms of the GO term being observed; more specificity.
+
+
+enriched = overexpressed.
+GO enrichment means finding the GO terms that are overexpressed within a certain set of genes
