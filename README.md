@@ -2,12 +2,12 @@
 A project to conduct a Genome Wide Association Study on fake raw SNP data.
 
 # Requirements
-Hail
-Regenie
-MAGMA
-Plink
-Jupyterlab
-Biomart
-Pysam
-Goatools
+Hail<br>
+Regenie<br>
+MAGMA<br>
+Plink<br>
+Jupyterlab<br>
+Biomart<br>
+Pysam<br>
+Goatools<br>
 Plotly
