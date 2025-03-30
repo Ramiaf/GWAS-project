@@ -1,0 +1,68 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--annotate
+	--snp-loc annotation_input_files/SNPLOC_file.txt
+	--gene-loc annotation_input_files/NCBI38.gene.loc
+	--out annotation_output_files/annotation_file
+
+Start time is 22:07:54, Friday 08 Nov 2024
+
+Starting annotation...
+Reading gene locations from file annotation_input_files/NCBI38.gene.loc... 
+	20137 gene locations read from file
+	chromosome  1: 2097 genes
+	chromosome  2: 1285 genes
+	chromosome  3: 1078 genes
+	chromosome  4: 765 genes
+	chromosome  5: 886 genes
+	chromosome  6: 1053 genes
+	chromosome  7: 942 genes
+	chromosome  8: 691 genes
+	chromosome  9: 803 genes
+	chromosome 10: 748 genes
+	chromosome 11: 1299 genes
+	chromosome 12: 1032 genes
+	chromosome 13: 341 genes
+	chromosome 14: 613 genes
+	chromosome 15: 616 genes
+	chromosome 16: 865 genes
+	chromosome 17: 1197 genes
+	chromosome 18: 283 genes
+	chromosome 19: 1423 genes
+	chromosome 20: 540 genes
+	chromosome 21: 246 genes
+	chromosome 22: 461 genes
+	chromosome  X: 825 genes
+	chromosome  Y: 48 genes
+Reading SNP locations from file annotation_input_files/SNPLOC_file.txt... 
+	9766 SNP locations read from file
+	of those, 4460 (45.67%) mapped to at least one gene
+Writing annotation to file annotation_output_files/annotation_file.genes.annot
+	for chromosome  1, 1810 genes are empty (out of 2097)
+	for chromosome  2, 1062 genes are empty (out of 1285)
+	for chromosome  3, 845 genes are empty (out of 1078)
+	for chromosome  4, 607 genes are empty (out of 765)
+	for chromosome  5, 686 genes are empty (out of 886)
+	for chromosome  6, 858 genes are empty (out of 1053)
+	for chromosome  7, 781 genes are empty (out of 942)
+	for chromosome  8, 551 genes are empty (out of 691)
+	for chromosome  9, 666 genes are empty (out of 803)
+	for chromosome 10, 596 genes are empty (out of 748)
+	for chromosome 11, 1121 genes are empty (out of 1299)
+	for chromosome 12, 868 genes are empty (out of 1032)
+	for chromosome 13, 265 genes are empty (out of 341)
+	for chromosome 14, 518 genes are empty (out of 613)
+	for chromosome 15, 510 genes are empty (out of 616)
+	for chromosome 16, 750 genes are empty (out of 865)
+	for chromosome 17, 1080 genes are empty (out of 1197)
+	for chromosome 18, 205 genes are empty (out of 283)
+	for chromosome 19, 1285 genes are empty (out of 1423)
+	for chromosome 20, 462 genes are empty (out of 540)
+	for chromosome 21, 219 genes are empty (out of 246)
+	for chromosome 22, 461 genes are empty (out of 461)
+	for chromosome  X, 760 genes are empty (out of 825)
+	for chromosome  Y, 48 genes are empty (out of 48)
+	at least one SNP mapped to each of a total of 3123 genes (out of 20137)
+
+
+End time is 22:07:55, Friday 08 Nov 2024 (elapsed: 00:00:01)
