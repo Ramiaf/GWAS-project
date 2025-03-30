@@ -1,0 +1,31 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --bfile MAGMA_files/MAGMA_PLINK_geno/magma_genotypes/magma_geno
+  --make-bed
+  --out MAGMA_files/MAGMA_PLINK_geno/updated_magma_genotypes/updated_magma_geno
+
+Hostname: LAPTOP-EJL995AO
+Working directory: /mnt/c/Rami/Career_Experience/Andreas_Henschel/Project/Material_used
+Start time: Sun Mar 30 22:24:11 2025
+
+Random number seed: 1743362651
+3836 MB RAM detected; reserving 1918 MB for main workspace.
+9772 variants loaded from .bim file.
+323 people (148 males, 175 females) loaded from .fam.
+323 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 323 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 435 het. haploid genotypes present (see
+MAGMA_files/MAGMA_PLINK_geno/updated_magma_genotypes/updated_magma_geno.hh );
+many commands treat these as missing.
+Total genotyping rate is 0.992915.
+9772 variants and 323 people pass filters and QC.
+Phenotype data is quantitative.
+--make-bed to
+MAGMA_files/MAGMA_PLINK_geno/updated_magma_genotypes/updated_magma_geno.bed +
+MAGMA_files/MAGMA_PLINK_geno/updated_magma_genotypes/updated_magma_geno.bim +
+MAGMA_files/MAGMA_PLINK_geno/updated_magma_genotypes/updated_magma_geno.fam ...
+done.
+
+End time: Sun Mar 30 22:24:11 2025
