@@ -1,0 +1,8 @@
+##### #####  PLINK .bim file  ##### #####
+# Following variable IDs had duplications in file updated_magma_geno/updated_magma_geno.bim
+X:151893892:A:G
+X:152091153:A:C
+X:152596189:G:A
+X:154087368:T:A
+rs1183501597
+rs1281518043

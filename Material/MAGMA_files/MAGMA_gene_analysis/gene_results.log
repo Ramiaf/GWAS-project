@@ -1,0 +1,33 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--bfile updated_magma_geno/updated_magma_geno
+	--pval GWAS_summary_stat.txt pval=p_values snp-id=ID ncol=N
+	--gene-annot annotation_output_files/annotation_file.genes.annot
+	--out gene_analysis/gene_results
+
+Start time is 22:12:02, Friday 08 Nov 2024
+
+Loading PLINK-format data...
+Reading file updated_magma_geno/updated_magma_geno.fam... 323 individuals read
+Reading file updated_magma_geno/updated_magma_geno.bim... 9766 SNPs read
+	WARNING: file contains 6 duplicate SNP IDs; writing list of IDs to supplementary log file
+Preparing file updated_magma_geno/updated_magma_geno.bed... 
+
+Reading SNP p-values from file GWAS_summary_stat.txt... 
+	detected 13 variables in file
+	using variable: ID (SNP id)
+	using variable: p_values (p-value)
+	using variable: N (sample size; discarding SNPs with N < 50)
+	read 9767 lines from file, containing valid SNP p-values for 9766 SNPs in data (99.99% of lines, 99.94% of SNPs in data)
+Loading gene annotation from file annotation_output_files/annotation_file.genes.annot... 
+	3123 gene definitions read from file
+	found 3123 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file gene_analysis/gene_results.genes.out
+	writing intermediate output to file gene_analysis/gene_results.genes.raw
+
+
+End time is 22:12:06, Friday 08 Nov 2024 (elapsed: 00:00:04)
