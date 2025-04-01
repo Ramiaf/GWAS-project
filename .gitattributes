@@ -1,0 +1,2 @@
+Material/GO/m filter=lfs diff=lfs merge=lfs -text
+Material/GO/gene2go.gz filter=lfs diff=lfs merge=lfs -text
