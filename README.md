@@ -8,6 +8,6 @@ MAGMA<br>
 Plink<br>
 Jupyterlab<br>
 Biomart<br>
-Pysam<br>
+Tabix & Pysam<br>
 Goatools<br>
-Plotly
+Plotly<br>
