@@ -1,4 +1,4 @@
-# BroadE Workshop 2020 
+# Hail Workshop 2020 
 ## Scalable Genomics using Hail
 ### Date: March 5th, 2020
 ### [YouTube playlist](https://www.youtube.com/playlist?list=PLlMMtlgw6qNg7im-zHSWu7M1N8xigpv4m) 
