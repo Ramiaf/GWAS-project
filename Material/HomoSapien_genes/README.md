@@ -6,4 +6,4 @@
       - HS_unsorted_haplotypes.txt contains the remaining non-numerical genes (unsorted).
   - HS_sorted_haplotypes.txt contains the sorted haplotypes.
   - HS_final_sorted_genes.txt is the result of merging "HS_sorted_haplotypes.txt" and "HS_sorted_CME.txt".<br>
-#### Now we can index this file and use it to quickly extract gene and SNP information.
+#### Now we can index this file and use it to quickly extract gene information for our SNPs.
